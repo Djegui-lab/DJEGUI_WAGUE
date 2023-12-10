@@ -41,6 +41,7 @@ def extract_data_from_url(url):
 # Interface Streamlit
 def main():
     st.title("Extraction de données d'annonces immobilières")
+    st.subheader("AUTEUR : DJÉGUI-WAGUÉ")
     
     # Demander à l'utilisateur d'entrer l'URL
     url = st.text_input("Entrez l'URL de la page d'annonces immobilières")
